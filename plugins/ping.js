@@ -2,8 +2,8 @@ const config = require('../config');
 const { cmd, commands } = require('../command');
 
 // Bot details
-const botname = "𝙺𝙰𝚅𝙸 𝙼𝙳";
-const ownername = "𝙺𝙰𝚅𝙸𝙳𝚄 𝚁𝙰𝚂𝙰𝙽𝙶𝙰";
+const botname = "LASITH 𝙼𝙳";
+const ownername = "LASITH DULSHAN";
 
 // Quoted object
 const Supunwa = {
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         serverMessageId: 999
       },
       externalAdReply: {
-        title: 'KAVI-MD 👨‍💻',
+        title: 'LASITH-MD 👨‍💻',
         body: 'BOT STATUS | ONLINE ㋡',
         thumbnailUrl: "https://files.catbox.moe/2hj8ph.jpg",
         mediaType: 1,
@@ -58,9 +58,9 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
     // Send the ping response
     await conn.sendMessage(from, {
-      text: `*KAVI MD SPEED ➟ ${ping}ms*`,
+      text: `*LASITH MD SPEED ➟ ${ping}ms*`,
       contextInfo
-    }, { quoted: Supunwa });
+    }, { quoted: Supunwa }); 
 
   } catch (e) {
     console.error(e);
